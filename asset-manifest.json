@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/familypet/static/css/main.f6e3c71c.css",
+    "main.js": "/familypet/static/js/main.39582900.js",
+    "static/media/homeSlider3.jpg": "/familypet/static/media/homeSlider3.a39c225ff2d9f5043215.jpg",
+    "static/media/homeSlider1.jpg": "/familypet/static/media/homeSlider1.e3b8d33cf0e74d05e0f2.jpg",
+    "static/media/homeSlider2.jpg": "/familypet/static/media/homeSlider2.898d9633876de4270593.jpg",
+    "static/media/bootstrap-icons.woff?": "/familypet/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/familypet/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/二不一要.jpg": "/familypet/static/media/二不一要.d8821a187e39f927bda2.jpg",
+    "static/media/park.png": "/familypet/static/media/park.64bb60fbca60862629fe.png",
+    "static/media/1959動物保護專線.jpg": "/familypet/static/media/1959動物保護專線.43d6300cd1b2938e9209.jpg",
+    "static/media/cargo.png": "/familypet/static/media/cargo.ce96902f34cd84b5b315.png",
+    "static/media/serve.png": "/familypet/static/media/serve.9c6af337ae7d0a15610f.png",
+    "static/media/slick.svg": "/familypet/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/familypet/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/familypet/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/familypet/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/familypet/index.html",
+    "main.f6e3c71c.css.map": "/familypet/static/css/main.f6e3c71c.css.map",
+    "main.39582900.js.map": "/familypet/static/js/main.39582900.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6e3c71c.css",
+    "static/js/main.39582900.js"
+  ]
+}
