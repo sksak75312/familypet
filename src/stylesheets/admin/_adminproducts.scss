@@ -1,0 +1,65 @@
+.admin__content {
+  margin: 20px auto;
+  min-width: 70%;
+  border-radius: 5px;
+  border: $admin-table-border;
+  background-color: #fff;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    &__title {
+      @include font-setting(1.8rem, 700, 5px);
+    }
+    &__btn {
+      @include font-setting(1.6rem, 400, 0px);
+      cursor: pointer;
+      transition: .2s;
+      &:hover {
+        transform: scale(1.2);
+      }
+      &:active {
+        transform: scale(1);
+      }
+    }
+  }
+  &__table {
+    @include font-setting(1.4rem, 400, 5px);
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    &__thead__tr {
+      border-bottom: $admin-table-border;
+    }
+    &__tbody__tr {
+      line-height: 60px;
+      border-bottom: $admin-table-border;
+      &__btn {
+        font-size: 1.6rem;
+        cursor: pointer;
+      }
+    }
+  }
+  &__nav {
+    padding: 18px 0px;
+    &__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      &__item {
+        &__link {
+          color: grey;
+          cursor: pointer;
+          @include font-setting(1.2rem, 700, 0px);
+          &:hover {
+            color: black;
+          }
+          &--active {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

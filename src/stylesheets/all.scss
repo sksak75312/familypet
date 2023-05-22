@@ -1,0 +1,60 @@
+@import './utilities';
+@import './variables';
+@import './front/navbar';
+@import './front/footer';
+@import './front/home';
+@import './front/product';
+@import './front/about';
+@import './login';
+@import './admin/dashboard';
+@import './admin/adminproducts';
+@import './admin/productmodal';
+@import './admin/deletemodal';
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Lobster&family=Noto+Sans+TC:wght@400;700&display=swap');
+
+// 引入 react-slick css
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+
+/* Reset css */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Alkatra', 'Noto Sans TC', 'sans-serif', 'cursive';
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.front-main {
+  background: $main-color;
+}
+
+/* Reset End */

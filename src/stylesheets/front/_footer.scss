@@ -1,0 +1,18 @@
+.front-footer {
+  width: 100%;
+  height: 150px;
+  background: rgba($color: #000000, $alpha: 0.1);
+  color: rgba($color: #000000, $alpha: 0.7);
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    &__title {
+      margin: 10px 0;
+      font-family: 'Lobster', cursive;
+    }
+  }
+}

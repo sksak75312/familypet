@@ -1,0 +1,40 @@
+@mixin font-setting($size, $weight, $spacing) {
+  font-size: $size;
+  font-weight: $weight;
+  letter-spacing: $spacing;
+}
+
+@mixin front-section-padding-top () {
+  padding-top: 80px;
+}
+
+@mixin admin-modal-background () {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(130, 117, 117, 0.5);
+}
+
+@mixin fixed-top50-left50 () {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin admin-modal-button () {
+  @include font-setting(1.2rem, 700, 5px);
+  padding: 3px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+@mixin home-section-title-style () {
+  @include font-setting(2rem, 700, 0);
+    display: inline;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
